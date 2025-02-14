@@ -12,10 +12,7 @@ function App() {
   //  let [textToShow,setTextState]= useState()
 
    let [foodItems,setFoodItems]=useState([
-      "sbg",
-      "green vegetable",
-      "Roti",
-
+     
    ]);
    const onKeyDown=(event)=>{
     if(event.key==="Enter"){
